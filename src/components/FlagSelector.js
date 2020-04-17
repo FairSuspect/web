@@ -23,9 +23,11 @@ const data = Data;
    * @property setCurrentFlag - setter
    */
   const [currentFlag, setCurrentFlag] = useState(data[10]);
+  console.log(currentFlag);
 
   const handleSelect = e => {
     setCurrentFlag(data.filter(item => item.value === e.target.value)[0]);
+    console.log(currentFlag);
   };
 
   const Flag = () => {
@@ -42,12 +44,12 @@ const data = Data;
       <p>Флаг не выбран</p>
     );
   };
-
+  
   return (
     <div>
       <select onChange={handleSelect} value={currentFlag.value}>
         {data.map(e => (
-          <option key={e.value} value={e.value}>
+          <option key={e.value} value={e.value} >
             {e.alias}
           </option>
         ))}
