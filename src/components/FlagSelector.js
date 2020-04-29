@@ -10,7 +10,7 @@ import { Data } from "./data";
  * [+] Support for initing value to <select /> consume it
  */
 
-const getImageURL = code => `https://www.countryflags.io/${code}/shiny/64.png`;
+export const getImageURL = code => `https://www.countryflags.io/${code}/shiny/64.png`;
 
 const FlagSelector = () => {
 
