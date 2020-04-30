@@ -231,6 +231,27 @@ export const Data = [
         alias: "Germany",
         value: "de"
     },
+    {
+        alias: "Russia",
+        value: "ru"
+    },
+    {
+        alias: "Ukraine",
+        value: "ua"
+    },
+    {
+        alias: "Kazakhstan",
+        value: "kz"
+    },
+    {
+        alias: "United States",
+        value: "US"
+    },
+    {
+        alias: "United Kingdom",
+        value: "gb"
+    }
+
 
 
   ];
