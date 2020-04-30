@@ -48,7 +48,7 @@ it('getImageURL works correctly',() =>{
     const data = Data;
     const component = renderer.create(<FlagSelector />);
     renderer.act(() => {
-      expect(data).toHaveLength(63);
+      expect(data).toHaveLength(65);
     });
   
     

@@ -250,6 +250,14 @@ export const Data = [
     {
         alias: "United Kingdom",
         value: "gb"
+    },
+    {
+        alias: "Spain",
+        value: "es"
+    },
+    {
+        alias: "Italy",
+        value: "it"
     }
 
 
