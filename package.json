@@ -1,6 +1,6 @@
 {
   "name": "flags",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "./node_modules/.bin/webpack --mode=production",
     "test": "react-scripts test",
-    "teste2e": "./node_modules/.bin/cypress run"
+    "teste2e": "./node_modules/.bin/cypress run",
+    "lint": "eslint src/App.js src/components/FlagSelector.js src/components/data.js src/components/index.js --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
