@@ -18,7 +18,7 @@
     "build": "./node_modules/.bin/webpack --mode=production",
     "test": "react-scripts test",
     "teste2e": "./node_modules/.bin/cypress run",
-    "lint": "eslint src/App.js src/components/FlagSelector.js src/components/data.js src/components/index.js --fix"
+    "lint": "eslint ./src/*.{js,jsx} --fix"
   },
   "eslintConfig": {
     "extends": "react-app"
