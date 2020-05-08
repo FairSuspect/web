@@ -260,17 +260,21 @@ export const Data = [
     value: 'it',
   },
   {
+    alias: 'Samoa',
+    value: 'ws'
+  },
+  {
+    alias: 'Yemen',
+    value: 'ye',
+  },
+  {
     alias: 'Mayotte',
     value: 'yt',
   },
   {
-    alias: 'South Africa',
-    value: 'za',
-  },
-  {
-    alias: 'Zambia',
-    value: 'zm',
-  },
+  alias: 'Zambia',
+  value: 'zm',
+  }
 
 
 ];
